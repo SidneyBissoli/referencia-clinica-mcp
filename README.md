@@ -62,6 +62,29 @@ IA, que não são parte do produto.
   localmente no computador do usuário. Registra apenas métricas agregadas de uso (nome
   da ferramenta chamada, sucesso ou erro, duração).
 
+## Exemplo de uso (planejado)
+
+Pergunta do profissional ao assistente de IA: *"Qual o preço máximo da metformina 850 mg
+e o que a bula diz sobre uso na gravidez?"*
+
+O assistente chama o servidor, que devolve, por exemplo:
+
+```
+princípio ativo: cloridrato de metformina (nome DCB)
+  fonte: DCB, IN ANVISA nº 462/2026, https://bibliotecadigital.anvisa.gov.br/...
+classe terapêutica: biguanidas (ATC A10BA02)
+produtos registrados na ANVISA: N apresentações de 850 mg (lista completa na resposta)
+  fonte: dados abertos de registro, ANVISA, extraído em 2026-10-10
+preço máximo ao consumidor (PMC 18%): R$ 00,00 a R$ 00,00 conforme a apresentação
+  fonte: lista CMED de 23/09/2026, vigente a partir de 24/09/2026
+bula, seção "Gravidez": "<trecho literal da seção>"
+  fonte: bula publicada pela FDA (openFDA), set id ..., versão de 2026-03-14
+```
+
+Os valores acima são ilustrativos. Cada linha sai com a fonte, a data ou versão e o
+endereço. O assistente redige a resposta a partir desses trechos; o servidor não
+interpreta, não calcula e não recomenda.
+
 ## Licença
 
 A DCB e a RENAME são publicadas sob CC BY-NC-SA 4.0. Os dados derivados delas sairão com
