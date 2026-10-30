@@ -1,8 +1,16 @@
 # referencia-clinica-mcp
 
-**Produto planejado. Nada foi construído ainda.** Este repositório existe para descrever
-o produto e servir de referência à consulta de enquadramento sanitário feita à ANVISA
-em outubro de 2026. O código só começa depois da resposta.
+> **Projeto suspenso (30/10/2026).** A ANVISA respondeu à consulta de enquadramento em
+> 28/10/2026: nos termos descritos abaixo, o produto não se enquadra como software
+> como dispositivo médico (SaMD). Mesmo assim, a construção não vai começar por
+> enquanto: uma consulta informal a um médico que usa assistente de IA no dia a dia
+> indicou que, para esse uso, o assistente já atende bem o que este servidor faria.
+> Nada foi construído. O projeto pode ser retomado se aparecer demanda de outro perfil
+> de uso.
+
+**Produto planejado. Nada foi construído.** Este repositório existe para descrever
+o produto e serviu de referência à consulta de enquadramento sanitário feita à ANVISA
+em outubro de 2026.
 
 ## O que será
 
