@@ -1,3 +1,6 @@
 # Consulta de enquadramento à ANVISA: formulário com dados pessoais do mantenedor.
 # Fica fora do git (o repositório é público); viaja pelo pacote da troca de máquina.
 docs/anvisa/
+
+# Roadmap privado, como nos outros produtos: a copia viaja no portfolio-monitor (roadmaps-fonte/).
+/ROADMAP.md
